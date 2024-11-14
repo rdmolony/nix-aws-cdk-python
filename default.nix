@@ -2,5 +2,5 @@ let
   pkgs = import <nixpkgs> { };
 in
 {
-  numpy-financial = pkgs.python312Packages.callPackage ./aws-cdk-python.nix { };
+  aws-cdk = pkgs.python312Packages.callPackage ./aws-cdk.nix { };
 }
